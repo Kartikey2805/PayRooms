@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/home">
         PayRooms
       </a>
       <button
