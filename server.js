@@ -5,7 +5,9 @@ const roomsRoute = require("./routes/roomsRoute");
 const usersRoute = require("./routes/usersRouter");
 const bookingsRoute = require("./routes/bookingsRoute");
 const path = require("path");
+const cors = require("cors");
 
+app.use(cors());
 app.use(express.json());
 
 if (process.env.NODE_ENV === "production") {
