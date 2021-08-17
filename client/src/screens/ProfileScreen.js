@@ -44,7 +44,7 @@ function ProfileScreen() {
 
 export default ProfileScreen;
 
-async function MyBookings({ user }) {
+function MyBookings({ user }) {
   const [bookings, setBookings] = useState([]);
   const [loading, setLoading] = useState(true);
 
