@@ -1,7 +1,9 @@
 const mongoose = require("mongoose");
 
+// let mongoURL =
+//   "mongodb+srv://kartikey:12345@demo.wdy1l.mongodb.net/sheyrooms?retryWrites=true&w=majority";
 let mongoURL =
-  "mongodb+srv://kartikey:12345@demo.wdy1l.mongodb.net/sheyrooms?retryWrites=true&w=majority";
+  "mongodb+srv://admin:admin@authentication.ukanr.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.connect(mongoURL, { useUnifiedTopology: true, useNewUrlParser: true });
 
