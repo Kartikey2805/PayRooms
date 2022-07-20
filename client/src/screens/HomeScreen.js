@@ -132,7 +132,9 @@ export default function HomeScreen() {
             <Loader />
           </h1>
         ) : (
-          <div>
+          <div
+            style={{ width: "100%", display: "flex", justifyContent: "center" }}
+          >
             {rooms.map((room) => {
               return (
                 <div className="col-md-9 mt-2">
