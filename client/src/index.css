@@ -90,3 +90,9 @@ h2 {
   color: black !important;
   margin-top: 20px;
 }
+
+.roomCont {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
